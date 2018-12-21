@@ -1,0 +1,64 @@
+.download-view{
+    background-color: #fff;
+
+    text-align: center;
+}
+
+.file-img{
+    margin: 40px auto 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.file-img img{
+    width: 100%;
+    height: auto;
+}
+
+.file-name{
+    color: #343434;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-githome{
+    margin: 40px auto 0;
+    background-color: #FF7473;
+    height: 40px;
+    width: 240px;
+    line-height: 40px;
+
+    font-size: 16px;
+    color: #fff;
+}
+.my-githome:hover{
+    background-color: #FF7473;
+    opacity: 0.8;
+}
+.my-githome:active{
+    background: #CCCCCC;
+    opacity: 0.8;
+}
+
+.now-download{
+    margin: 20px auto 0;
+    background-color: #fff;
+    height: 40px;
+    width: 240px;
+    line-height: 40px;
+
+    font-size: 16px;
+    color: #707070;
+    border: 1px solid #707070;
+}
+
+.now-download:hover{
+    background-color: #fff;
+    opacity: 0.8;
+}
+.now-download:active{
+    color: #fff;
+    background: #CCCCCC;
+    opacity: 0.8;
+}

@@ -3,17 +3,30 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>游戏Demo</title>
+
+    <link rel="stylesheet" href="download.css">
+
 </head>
 <body>
 
-<h1>1. iOS安装 <a href="https://127.0.0.1/ipa/server.crt">证书</a><br/>(如果之前尚未安装过此证书，请先安装证书)</h1>
-<br/>
-<h1>2. iOS安装 <a href="itms-services://?action=download-manifest&url=https://127.0.0.1/ipa/manifest.plist">游戏包</a></h1>
-<br/>
+	<div class="download-view">
+		<div class="file-img">
+        	<img src="SplashImage.png">
+    	</div>
 
-<h1>2. iOS安装 <a href="itms-services://?action=download-manifest&url=https://mzyofvip.github.io/download/manifest.plist">游戏包</a></h1>
+    	<div class="file-name">艾日 OwnCloud</div>
+	
+    	<div class="my-githome" onclick="myhome()">
+    		偷看帅照
+    	</div>
 
-<h1>3. Android安装 <a href="https://127.0.0.1/ipa/thirtysix.apk">游戏包</a></h1>
+    	<div class="now-download" onclick="downloadapp()">
+    		立即安装
+        	<!-- <a href="itms-services://?action=download-manifest&url=https://mzyofvip.github.io/download/manifest.plist">立即下载</a> -->
+    	</div>
+	</div>
+
+	<script src="download.js"></script>
 
 </body>
 </html>
